@@ -119,6 +119,8 @@ function modeChanged() {
   mode = sel.value();
   osc1.start();
   osc2.start();
+  osc1Started = true;
+  osc2Started = true;
   resetScreen();
 }
 
